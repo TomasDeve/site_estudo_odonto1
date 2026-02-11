@@ -32,7 +32,6 @@ export const sendChatMessage = async (
       contents: fullPrompt, 
       config: {
         systemInstruction: systemInstruction,
-        maxOutputTokens: 300,
         temperature: 0.7,
       }
     });
